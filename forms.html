@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Forms</h2>
+    <fieldset>
+      <legend>User Details</legend>
+      <form>
+        <label for="fname"><b>First Name</b></label>
+        <input type="text" id="fname" /><br />
+        <label for="lname"><b>Last Name</b></label>
+        <input type="text" id="lname" /><br />
+        <label for="age"><b>Age</b></label>
+        <input type="number" id="age" required /><br />
+        <b>Gender:</b> <br />
+        <input type="radio" name="gender" id="male" />Male
+        <input type="radio" name="gender" id="female" />Female
+        <br />
+        <b> Enroll Courses:</b> <br />
+        <input type="checkbox" name="courses" id="c" />C
+        <input type="checkbox" name="courses" id="c++" />C++
+        <input type="checkbox" name="courses" id="java" />Java
+        <br />
+        <b>College:</b>
+        <select name="college" id="college">
+          <option value="GPREC">GPREC</option>
+          <option value="GPCET">GPCET</option>
+          <option value="JNTU">JNTU</option>
+        </select>
+
+        <br /><input
+          type="button"
+          value="Submit"
+          class="button"
+          onclick="getData()"
+        />
+      </form>
+    </fieldset>
+  </body>
+</html>
