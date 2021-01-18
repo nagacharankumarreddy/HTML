@@ -1,0 +1,13 @@
+table,td,th{
+    border: 2px solid blueviolet;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 5px;
+}
+td:hover{
+    background-color: darkcyan;
+}
+#tf{
+    text-align: center;
+}
