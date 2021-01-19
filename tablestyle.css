@@ -1,3 +1,6 @@
+table{
+margin-bottom: 20px;
+}
 table,td,th{
     border: 2px solid blueviolet;
     border-collapse: collapse;
@@ -10,4 +13,7 @@ td:hover{
 }
 #tf{
     text-align: center;
+}
+tr:nth-child(2n){
+    background-color: rgba(255, 99, 255, 0.5)
 }

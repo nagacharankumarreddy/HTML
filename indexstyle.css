@@ -1,21 +1,30 @@
-body{
-    background-image: url(./assets/2.jpg);
+body {
+  background-image: url(./assets/2.jpg);
+  height: 2000px;
 }
-a:link, a:visited {
-    background-color: #f44336;
-    color: white;
-    padding: 5px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  a:hover, a:active {
-    background-color: red;
-  }
-  dd,li{
-      padding: 5px;;
-  }
-  #dot{
-    list-style-type: none;
-  }
+a:link,
+a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: red;
+}
+
+a {
+  width:100%;
+}
+li{
+  width: 5%;
+}
+dd,
+li {
+  padding: 5px;
+  list-style-type: none;
+}
