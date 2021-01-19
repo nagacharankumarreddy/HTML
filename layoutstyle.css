@@ -1,0 +1,40 @@
+div {
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+#one {
+  color: honeydew;
+  background-color: blueviolet;
+  padding: 5%;
+}
+#two {
+  width: 30%;
+  padding: 8%;
+  background-color: chocolate;
+  float:left;
+}
+#three {
+  background-color: brown;
+  padding: 8%;
+  height: 100px;
+  float: left;
+  width: 37.3%;
+}
+#four {
+  float: left;
+  width: 30%;
+  height: 230px;
+  background-color: dimgray;
+}
+#five{
+  float: left;
+  height: 230px;
+  background-color:green;
+  width: 195px;
+}
+#six{
+  height: 450px;
+  background-color: black;
+  vertical-align: bottom;
+  color: white;
+}
